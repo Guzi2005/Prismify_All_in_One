@@ -2,7 +2,7 @@
   "name": "react-example",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Guzi2005/Prismify_All_in_One",
+  "homepage": "https://Guzi2005.github.io/Prismify_All_in_One/",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
