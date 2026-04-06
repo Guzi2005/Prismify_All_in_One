@@ -1,8 +1,7 @@
 {
-  "name": "react-example",
+  "name": "prismify",
   "private": true,
-  "version": "0.0.0",
-  "homepage": "https://Guzi2005.github.io/Prismify_All_in_One/",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
@@ -10,7 +9,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "clean": "rm -rf dist",
+    "clean": "node -e \"require('fs').rmSync('dist', { recursive: true, force: true })\"",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
